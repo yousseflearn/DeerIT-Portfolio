@@ -43,21 +43,21 @@
         width: 50px;
       }
     }
-  }
 
-  .imageContainer {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  .slidingTextContainer {
-    position: absolute;
-    font-size: 50vh;
-    bottom: -120px;
-    white-space: nowrap;
-    color: #ffffff09;
-    width: 50%;
-    font-weight: bold;
+    .imageContainer {
+      height: 100%;
+      position: absolute;
+      top: 100px;
+      right: -20px;
+    }
+    .slidingTextContainer {
+      position: absolute;
+      font-size: 50vh;
+      bottom: -120px;
+      white-space: nowrap;
+      color: #ffffff09;
+      width: 50%;
+      font-weight: bold;
+    }
   }
 }
