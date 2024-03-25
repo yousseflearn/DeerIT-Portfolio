@@ -6,37 +6,37 @@ const items = [
   {
     id: 1,
     title: "React Dentist Website",
-    img: "../../../public/medecine.jpg",
+    img: "medecine.jpg",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, explicabo odit? Laborum veniam labore repellat sunt, accusamus quae laboriosam doloribus aliquam itaque voluptatem! Excepturi dolor veniam cupiditate voluptatem blanditiis et",
   },
   {
     id: 2,
     title: "Nextjs Blog",
-    img: "../../../public/blog.svg",
+    img: "blog.svg",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, explicabo odit? Laborum veniam labore repellat sunt, accusamus quae laboriosam doloribus aliquam itaque voluptatem! Excepturi dolor veniam cupiditate voluptatem blanditiis et",
   },
   {
     id: 3,
     title: "React Restaurant",
-    img: "../../../public/restaurant.jpg",
+    img: "restaurant.jpg",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, explicabo odit? Laborum veniam labore repellat sunt, accusamus quae laboriosam doloribus aliquam itaque voluptatem! Excepturi dolor veniam cupiditate voluptatem blanditiis et",
   },
   {
     id: 4,
     title: "React Ecomerce",
-    img: "../../../public/ecomerce.svg",
+    img: "ecomerce.svg",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, explicabo odit? Laborum veniam labore repellat sunt, accusamus quae laboriosam doloribus aliquam itaque voluptatem! Excepturi dolor veniam cupiditate voluptatem blanditiis et",
   },
   {
     id: 5,
     title: "React Dentist Website",
-    img: "../../../public/medecine.jpg",
+    img: "medecine.jpg",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, explicabo odit? Laborum veniam labore repellat sunt, accusamus quae laboriosam doloribus aliquam itaque voluptatem! Excepturi dolor veniam cupiditate voluptatem blanditiis et",
   },
   {
     id: 6,
     title: "Nextjs Blog",
-    img: "../../../public/blog.svg",
+    img: "blog.svg",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, explicabo odit? Laborum veniam labore repellat sunt, accusamus quae laboriosam doloribus aliquam itaque voluptatem! Excepturi dolor veniam cupiditate voluptatem blanditiis et",
   },
 ];
@@ -47,7 +47,7 @@ const Single = ({ item }) => {
     target: ref,
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-400, 400]);
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
   return (
     <section>
       <div className="container">
@@ -65,8 +65,6 @@ const Single = ({ item }) => {
     </section>
   );
 };
-
-// const y = useTransform(scrollYProgress, [0, 1], ["0%", "-300%"]);
 
 const Portfolio = () => {
   const ref = useRef();
